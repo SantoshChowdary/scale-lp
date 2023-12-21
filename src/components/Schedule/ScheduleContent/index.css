@@ -1,0 +1,91 @@
+.scheduled-courses-list{
+    padding: 0 30px 0 20px;
+    list-style-type: none;
+}
+.scheduled-course-item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 20px;
+    margin: 25px 0;
+    box-shadow: 0 0 1px 1px rgb(193, 192, 192);
+    font-family: "Inter";
+}
+.scheduled-course-item-2{
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.7;
+    background-image: url("https://res.cloudinary.com/learning-platform/image/fetch/dpr_auto,w_auto,f_auto,q_auto/https://d1tgh8fmlzexmh.cloudfront.net/website/static-images/track_gradients/frontend.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 25px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    z-index: 2;
+}
+.schedule-topic-item{
+    display: inline-block;
+    margin-top: -10px;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    /* background-color: grey; */
+    
+}
+.schedule-topic-name{
+    display: inline-block;
+    border-radius: 20px;
+    font-weight: 600;
+    opacity: 0.7;
+    margin-bottom: 15px;
+    padding : 5px 10px;
+    border-bottom: 2px solid skyblue;
+}
+.schedule-unit-item{
+    display: flex;
+    justify-content: space-between;
+    padding:  8px 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 5px 0; 
+    position: relative;
+}
+/* .schedule-unit-item::before{
+    content: "";
+    bottom: -19px;
+    position: absolute;
+    width: 2px;
+    z-index: 10;
+    top: 17px;
+    left: 17.5px;
+    background-color: rgb(217, 226, 236);
+    margin-left: 5px;
+} */
+.schedule-unit-item:hover{
+    background-color: rgb(224, 237, 244);
+}
+.schedule-unit-name{
+    font-weight: 500;
+    font-size: 15px;
+    opacity: 0.8;
+    margin-bottom: 5px;
+}
+.schedule-timer-icons-div{
+    font-family: "inter";
+    display: flex;
+    align-items: center;
+}
+.schedule-timer-icons-div span{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.schedule-unit-completion-circle{
+    width : 30px;
+    height : 30px;
+    margin-right: 25px;
+    padding-top: 25px;
+}
+.schedule-unit{
+    display: flex;
+}

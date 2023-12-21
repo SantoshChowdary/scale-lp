@@ -1,0 +1,37 @@
+.schedule-first-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+.your-schedule{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(51, 65, 85);
+    margin-bottom: 10px;
+}
+.date-element{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(100, 116, 139);
+}
+.main-schedule-content-section{
+    overflow: hidden auto;
+    user-select: none;
+    height:85vh;
+    /* max-height: 1000vh; */
+    margin: 10px 0 0 0;
+}
+.main-schedule-content-section::-webkit-scrollbar{
+    background: rgb(202, 202, 202);
+    border-radius: 10px;
+    width: 5px;
+    opacity: 0.5;
+}
+.main-schedule-content-section::-webkit-scrollbar-thumb{
+    background: #393939; 
+    border-radius: 6px;
+}
+
